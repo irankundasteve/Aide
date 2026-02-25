@@ -10,17 +10,8 @@
 
 ## Run
 
-1. Open in Android Studio / Android IDE.
-2. Let Gradle sync.
-3. Build with the included wrapper: `./gradlew assembleDebug` (or run the `app` configuration).
+1. Open in Android Studio (Hedgehog+ recommended)
+2. Let Gradle sync
+3. Run `app` on emulator/device (minSdk 26)
 
-> If you see `./gradlew: No such file or directory`, pull the latest code so `gradlew`, `gradlew.bat`, and `gradle/wrapper/*` are present.
->
-> Use JDK 17 for Android Gradle Plugin compatibility.
-
-The sample tracks stream from SoundHelix over the network.
-
-## Repository note
-
-This repository intentionally keeps only text files. The binary `gradle-wrapper.jar` is excluded by request.
-
+> The sample tracks stream from SoundHelix over the network.
